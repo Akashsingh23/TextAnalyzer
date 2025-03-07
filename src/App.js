@@ -43,9 +43,10 @@ function App() {
       {/* <Router> */}
         <Navbar title="WordWiz" mode={mode} toggleMode={toggleMode} />
         <Alert alert={alert} />
-        <div className="container my-3">
+        <div>
           {/* <Routes> */}
           <TextForm showAlert={showAlert} heading="Enter the text to analyze below" mode={mode} />
+          {/* <About mode={mode}/> */}
           {/* <Route exact path="/about" element={<About />} />  ✅ Fix for About Route */}
           {/* </Routes> */}
         </div>
